@@ -45,6 +45,11 @@
     <string name="keyboard_no_navigation_title">Hide IME space</string>
     <string name="keyboard_no_navigation_summary">Hide space below keyboard when navigation hint is disabled</string>
 
+    <!-- Landscape boot orientation, title string -->
+    <string name="landscape_boot_orientation_title">Boot device to landscape orientation</string>
+    <!-- Landscape boot orientation, summary string -->
+    <string name="landscape_boot_orientation_summary">Sets the default display rotation to 90 degrees and changes the orientation of the boot animation.</string>
+
     <!-- Heads up -->
     <string name="heads_up_title">Heads-up</string>
     <string name="heads_up_summary">Display priority notifications in a small floating window</string>
