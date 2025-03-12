@@ -130,12 +130,11 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <Preference
-            android:key="gesture_screen_off_udfps_input_summary"
+        <SwitchPreferenceCompat
+            android:key="gesture_screen_off_udfps"
             android:title="@string/ambient_display_screen_off_udfps_title"
-            android:fragment="com.android.settings.gestures.ScreenOffUdfpsSettings"
-            settings:searchable="false"
-            settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
+            android:summary="@string/ambient_display_screen_off_udfps_summary"
+            settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController"/>
 
         <SwitchPreferenceCompat
             android:key="ambient_display_notification"
